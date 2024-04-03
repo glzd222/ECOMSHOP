@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F0F3F2;
+}
+header .headerup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerup .p {
+  text-align: center;
+  opacity: 0.8;
+}
+header .select {
+  text-align: center;
+  cursor: pointer;
+}
+header .select img {
+  width: 25px;
+  height: 15px;
+  cursor: pointer;
+}
+header .select select {
+  border: 0px;
+  background-color: #F0F3F2;
+}
+
+#headermiddle {
+  background-color: white;
+}
+#headermiddle .headermiddle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+#headermiddle .icons ul {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+#headermiddle button {
+  width: 130px;
+  height: 40px;
+  border-radius: 7px;
+  margin-right: 270px;
+  background-color: white;
+  border: 2px solid rgb(226, 216, 216);
+  cursor: pointer;
+}
+#headermiddle .input {
+  margin-right: 400px;
+  width: 0px;
+  margin-right: 500px;
+}
+#headermiddle .input input {
+  padding: 11px;
+  width: 500px;
+  border: 0px solid white;
+  border-radius: 7px;
+  border: 2px solid rgb(226, 216, 216);
+}
+
+#headerdown {
+  height: 100px;
+}
+#headerdown .depart {
+  cursor: pointer;
+  border: 12px solid #099309;
+  background-color: #099309;
+  color: white;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+#headerdown nav ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+#headerdown nav ul li {
+  cursor: pointer;
+}
+#headerdown select {
+  border: 0px;
+}
+#headerdown .eyni a {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

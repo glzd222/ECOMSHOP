@@ -1,0 +1,99 @@
+header {background-color: #F0F3F2;
+
+    .headerup {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .p {
+        text-align: center;
+        opacity: 0.8;
+        }
+    }
+    .select {text-align: center;
+        cursor: pointer;
+        img {
+            width: 25px;
+            height: 15px;
+            cursor: pointer;
+        }
+        select {
+            border: 0px;
+            background-color: #F0F3F2;
+         
+        }
+    } }
+
+    // header middle
+#headermiddle { background-color: white;
+    .headermiddle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+  .icons ul{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+  }
+  button {
+    width: 130px;
+    height:40px;
+    border-radius: 7px;
+    margin-right: 270px;
+    background-color: white;
+    border: 2px solid rgb(226, 216, 216);
+    cursor: pointer;
+  
+  
+  }
+
+  
+  .input { 
+    margin-right: 400px;
+    width: 0px;
+    margin-right: 500px;
+ 
+
+   
+   input {
+    padding: 11px;
+    width: 500px;
+    border: 0px solid white;
+    border-radius:7px;
+    border: 2px solid rgb(226, 216, 216);
+
+   }
+ 
+   }
+    
+  }
+
+  #headerdown {height: 100px;
+    .depart{cursor: pointer;
+        border: 12px solid #099309;
+        background-color: #099309;
+        color: white;
+        border-radius: 10px;
+        padding: 0 15px;
+    }
+    nav ul {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        cursor: pointer;
+       li {
+        cursor: pointer;
+       }
+    }
+    select {
+        border: 0px;
+    }
+    .eyni a{
+        color: black;
+    }
+  }
+ 
+
+
