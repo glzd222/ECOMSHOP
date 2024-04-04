@@ -99,4 +99,38 @@ header .select select {
 }
 #headerdown .eyni a {
   color: black;
+}
+
+#categories .cards {
+  margin-bottom: 60px;
+  display: flex;
+  gap: 1rem;
+}
+#categories .card1 {
+  width: 200px;
+  border: 3px solid rgb(209, 196, 196);
+  padding: 40px;
+  text-align: center;
+}
+#categories .h1 {
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#categories .images {
+  display: flex;
+  gap: 2.5rem;
+}
+#categories .images .img {
+  width: 50%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+}
+#categories .images .img1 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+}
+#categories .images .img2 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner-2.jpg);
 }/*# sourceMappingURL=main.css.map */
